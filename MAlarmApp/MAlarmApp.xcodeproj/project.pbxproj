@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CFA2A00169F037500477036 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CFA29FF169F037500477036 /* UIKit.framework */; };
+		5CFA2A02169F037500477036 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CFA2A01169F037500477036 /* Foundation.framework */; };
+		5CFA2A04169F037500477036 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CFA2A03169F037500477036 /* CoreGraphics.framework */; };
+		5CFA2A0A169F037500477036 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CFA2A08169F037500477036 /* InfoPlist.strings */; };
+		5CFA2A0C169F037500477036 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFA2A0B169F037500477036 /* main.m */; };
+		5CFA2A10169F037500477036 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFA2A0F169F037500477036 /* AppDelegate.m */; };
+		5CFA2A12169F037500477036 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CFA2A11169F037500477036 /* Default.png */; };
+		5CFA2A14169F037500477036 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CFA2A13169F037500477036 /* Default@2x.png */; };
+		5CFA2A16169F037500477036 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CFA2A15169F037500477036 /* Default-568h@2x.png */; };
+		5CFA2A19169F037500477036 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFA2A18169F037500477036 /* ViewController.m */; };
+		5CFA2A1C169F037500477036 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CFA2A1A169F037500477036 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5CFA29FB169F037500477036 /* MAlarmApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAlarmApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CFA29FF169F037500477036 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5CFA2A01169F037500477036 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5CFA2A03169F037500477036 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5CFA2A07169F037500477036 /* MAlarmApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MAlarmApp-Info.plist"; sourceTree = "<group>"; };
+		5CFA2A09169F037500477036 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CFA2A0B169F037500477036 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CFA2A0D169F037500477036 /* MAlarmApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MAlarmApp-Prefix.pch"; sourceTree = "<group>"; };
+		5CFA2A0E169F037500477036 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5CFA2A0F169F037500477036 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5CFA2A11169F037500477036 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5CFA2A13169F037500477036 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5CFA2A15169F037500477036 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5CFA2A17169F037500477036 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5CFA2A18169F037500477036 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5CFA2A1B169F037500477036 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CFA29F8169F037400477036 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFA2A00169F037500477036 /* UIKit.framework in Frameworks */,
+				5CFA2A02169F037500477036 /* Foundation.framework in Frameworks */,
+				5CFA2A04169F037500477036 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CFA29F0169F037400477036 = {
+			isa = PBXGroup;
+			children = (
+				5CFA2A05169F037500477036 /* MAlarmApp */,
+				5CFA29FE169F037500477036 /* Frameworks */,
+				5CFA29FC169F037500477036 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CFA29FC169F037500477036 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CFA29FB169F037500477036 /* MAlarmApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CFA29FE169F037500477036 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CFA29FF169F037500477036 /* UIKit.framework */,
+				5CFA2A01169F037500477036 /* Foundation.framework */,
+				5CFA2A03169F037500477036 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CFA2A05169F037500477036 /* MAlarmApp */ = {
+			isa = PBXGroup;
+			children = (
+				5CFA2A0E169F037500477036 /* AppDelegate.h */,
+				5CFA2A0F169F037500477036 /* AppDelegate.m */,
+				5CFA2A17169F037500477036 /* ViewController.h */,
+				5CFA2A18169F037500477036 /* ViewController.m */,
+				5CFA2A1A169F037500477036 /* ViewController.xib */,
+				5CFA2A06169F037500477036 /* Supporting Files */,
+			);
+			path = MAlarmApp;
+			sourceTree = "<group>";
+		};
+		5CFA2A06169F037500477036 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CFA2A07169F037500477036 /* MAlarmApp-Info.plist */,
+				5CFA2A08169F037500477036 /* InfoPlist.strings */,
+				5CFA2A0B169F037500477036 /* main.m */,
+				5CFA2A0D169F037500477036 /* MAlarmApp-Prefix.pch */,
+				5CFA2A11169F037500477036 /* Default.png */,
+				5CFA2A13169F037500477036 /* Default@2x.png */,
+				5CFA2A15169F037500477036 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CFA29FA169F037400477036 /* MAlarmApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CFA2A1F169F037500477036 /* Build configuration list for PBXNativeTarget "MAlarmApp" */;
+			buildPhases = (
+				5CFA29F7169F037400477036 /* Sources */,
+				5CFA29F8169F037400477036 /* Frameworks */,
+				5CFA29F9169F037400477036 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MAlarmApp;
+			productName = MAlarmApp;
+			productReference = 5CFA29FB169F037500477036 /* MAlarmApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CFA29F2169F037400477036 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Taishi Yoshida";
+			};
+			buildConfigurationList = 5CFA29F5169F037400477036 /* Build configuration list for PBXProject "MAlarmApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5CFA29F0169F037400477036;
+			productRefGroup = 5CFA29FC169F037500477036 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CFA29FA169F037400477036 /* MAlarmApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CFA29F9169F037400477036 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFA2A0A169F037500477036 /* InfoPlist.strings in Resources */,
+				5CFA2A12169F037500477036 /* Default.png in Resources */,
+				5CFA2A14169F037500477036 /* Default@2x.png in Resources */,
+				5CFA2A16169F037500477036 /* Default-568h@2x.png in Resources */,
+				5CFA2A1C169F037500477036 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CFA29F7169F037400477036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFA2A0C169F037500477036 /* main.m in Sources */,
+				5CFA2A10169F037500477036 /* AppDelegate.m in Sources */,
+				5CFA2A19169F037500477036 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5CFA2A08169F037500477036 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CFA2A09169F037500477036 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5CFA2A1A169F037500477036 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CFA2A1B169F037500477036 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CFA2A1D169F037500477036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5CFA2A1E169F037500477036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CFA2A20169F037500477036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MAlarmApp/MAlarmApp-Prefix.pch";
+				INFOPLIST_FILE = "MAlarmApp/MAlarmApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5CFA2A21169F037500477036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MAlarmApp/MAlarmApp-Prefix.pch";
+				INFOPLIST_FILE = "MAlarmApp/MAlarmApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CFA29F5169F037400477036 /* Build configuration list for PBXProject "MAlarmApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CFA2A1D169F037500477036 /* Debug */,
+				5CFA2A1E169F037500477036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CFA2A1F169F037500477036 /* Build configuration list for PBXNativeTarget "MAlarmApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CFA2A20169F037500477036 /* Debug */,
+				5CFA2A21169F037500477036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CFA29F2169F037400477036 /* Project object */;
+}
